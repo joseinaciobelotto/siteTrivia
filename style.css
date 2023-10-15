@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+ 
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.fundo{
+background-image: url(imgens/1000_F_516257613_WnhlMv5CsWjmcNrzg8rdTXEgic65CvHC-iceUnyXkb-transformed\ \(1\).jpeg);
+background-position:center;
+background-repeat: none;
+background-size: cover;
+width: 100%;
+height: auto;
+
+box-shadow: 0 -10vh 100vh inset;
+}
+body{
+    background-color: black;
+}
+.divRow{
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+   
+}
+.divTela{
+   
+    width: 100vw;
+    height: 100%;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top:2vh;
+    margin-right:2vh;
+    margin-bottom: 2vh;
+    margin-left:2vh;
+    
+   
+    
+}
+#contador{
+    font-family: 'Kanit', sans-serif;
+    border: solid 1.2vw rgba(255, 255, 255, 0.342);
+   box-shadow:0vw 0.4vw 0vw   #310047;
+ border-image: linear-gradient(180deg,rgb(58, 0, 124),rgb(58, 0, 124))10;
+ text-align: center;
+ color:black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 2vh;
+ background-color: rgb(241, 241, 241);
+ width: 50%;
+}
+#certasHTML{
+    border: solid 1.2vw rgba(255, 255, 255, 0.342);
+   box-shadow:0vw 0.4vw 0vw   #310047;
+ border-image: linear-gradient(180deg,rgb(58, 0, 124),rgb(58, 0, 124))10;
+ text-align: center;
+ color:black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 2vh;
+ background-color: rgb(241, 241, 241);
+ width: 50%;
+}
+
+.telaPergunta{
+    
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vh;
+    background-color: aliceblue;
+    z-index: 20;
+    width: 100%;
+    height:  44.5vh;
+    border: solid 1.2vw rgba(255, 255, 255, 0.342);
+ text-align: center;
+ position: relative;
+   border-image: linear-gradient(180deg,rgb(95, 51, 255),rgb(58, 0, 124))10;
+    
+}
+.infomeio{
+justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.contador{
+    width: 50%;
+    color: black;
+    z-index: 100;
+ position: absolute;
+    text-align: center;
+}
+#telaRespostas{
+
+    border: solid 1.2vw rgba(255, 255, 255, 0.342);
+    box-shadow:0vw 0.4vw 0vw   #310047;
+    border-image: linear-gradient(180deg,rgb(58, 0, 124),rgb(95, 51, 255))10;
+     margin-bottom: 0vh;
+    margin-top:0vh;
+    z-index: 20;
+    width: 100%;
+    height:   44.5vh;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#amarelo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vh;
+    background-color: #FBFF46;
+    width: 100%;
+    height: 100%;
+    
+}
+#amarelo:hover
+{
+    width: 100%;
+    background-color: rgb(184, 173, 24);
+    transition-delay: 100ms;
+    cursor: pointer;
+}
+#vermelho{
+    font-family: 'Kanit', sans-serif;
+    background-color: #FF4646;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+}
+#vermelho:hover
+{
+    width: 100%;
+    background-color: rgb(184, 24, 24);
+    transition-delay: 100ms;
+    cursor: pointer;
+}
+#verde{
+    font-family: 'Kanit', sans-serif;
+    background-color: #60FF46;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+}
+#verde:hover
+{
+    width: 100%;
+    background-color: rgb(37, 184, 24);
+    transition-delay: 0ms;
+    cursor: pointer;
+}
+#azul{
+    font-family: 'Kanit', sans-serif;
+    background-color: #46FFFF;
+    width: 100%;
+    height: 100%;
+    font-size: 3vh;
+}
+#azul:hover
+{
+    width: 100%;
+    background-color: rgb(24, 184, 149);
+    transition-delay: 100ms;
+    cursor: pointer;
+}
+.divRowPlay{
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+   opacity: 0;
+}
+.telaRespostasPlay{
+    opacity: 0;
+
+    border: solid 1.2vw rgba(255, 255, 255, 0.342);
+    box-shadow:0vw 0.4vw 0vw   #310047;
+    border-image: linear-gradient(180deg,rgb(58, 0, 124),rgb(95, 51, 255))10;
+     margin-bottom: 0vh;
+    margin-top:0vh;
+    z-index: 20;
+    width: 100%;
+    height:   44.5vh;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.textoParabens{
+
+    text-align: center;
+    font-size: 4vw;
+    color: #27ee38;
+}
+p{
+   
+    font-family: 'Kanit', sans-serif;
+}
+#quantasAcertou{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 4vw;
+    color: #000000;
+}
+#parabens{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.telaPlay{
+    text-align: center;
+    margin-top:20vh;
+    margin-right:10vw;
+    margin-left:10vw ;
+    z-index: 20;
+    width: 800px;
+    height:  auto;
+   }
+   .perguntaPlay{
+   
+  
+  align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+
+   
+    
+    color: rgb(255, 255, 255);
+   }
+   #pPlay{
+    
+    z-index: 60;
+    margin-top: 53vh;
+ /* border-width: 2vw;*/
+    border-style: solid;
+    border-color: #ffffff ;
+   
+    padding-left: 3vw;
+    padding-right:3vw ;
+    box-shadow:-1vw 0.4vw -10vw  -2vw   #000000;
+margin-inline: 2vw;
+    font-size: clamp(100px, 5vw, 100px);
+   
+    border-radius:5%;
+ background-color: rgb(12, 182, 21);
+ 
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+   }
+   #parabens{
+opacity: 100;
+    position: absolute;
+    z-index:-10;
+    border-style: solid;
+    border-color: #27ee38;
+    border-width: 10px;
+    height: 30vw;
+    width: 70vw;
+    background-color: #ffffff;
+    top:25vh;
+    box-shadow: 0px 0vw 100vw 20vw#000000;
+   }
+   .titulo{
+    z-index: 60;
+    margin-top: 20vh;
+ /* border-width: 2vw;*/
+    margin-left: 20px;
+   background-color: #000000c2;
+   box-shadow: 0px 0px 50vw 400px #000000c2 ;
+    padding-left: 4vw;
+    padding-right:4vw ;
+    box-shadow:-1vw 0.4vw -10vw  -2vw   #000000;
+ justify-content:stretch;
+ display: flex  ;
+ flex-direction: row;
+    font-size: clamp(75px,10vw, 200px);
+    border-radius:5%;
+ 
+ 
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   }
+.cor1{ color: #ee2727}.cor2{color: #ee7727}
+ .cor3{color: #eee127} .cor4{color:#27ee38} 
+ .cor5{color: #6532f0} .cor6{color: #6532f0}
+ .cor7{color: #27ee38} .cor8{color:#27ee38} 
+ .cor9{color:  #eee127}.cor10{color: #ee7727}
+.cor11{color:  #ee2727}
+ 
+ 
+   
