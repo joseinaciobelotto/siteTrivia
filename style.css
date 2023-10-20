@@ -352,7 +352,7 @@ p {
     justify-content: stretch;
     display: flex;
     flex-direction: row;
-    font-size: clamp(75px, 10vw, 200px);
+    font-size: clamp(65px, 10vw, 200px);
     border-radius: 5%;
     position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
