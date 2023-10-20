@@ -54,12 +54,12 @@ document.addEventListener("DOMContentLoaded",function()
       certasHTML.innerHTML = certas+ "/10";
       certaTest=certas;
      
-      if(numPergunta==10 && certas==10)
+      if(numPergunta==11 && certas==11)
       {
          document.getElementById('parabens').style.zIndex="100";
          pontosFinais.innerHTML = certas+ "/10";
       }
-      else if(numPergunta==10)
+      else if(numPergunta==11)
       {
          document.getElementById('parabens').style.zIndex="100";
          pontosFinais.innerHTML = "You got right: " + certas + "/10";
